@@ -11,7 +11,7 @@ executors:
     environment:
       IMAGE_NAME: openftth/notification-server
     docker:
-      - image: cimg/base:2022.12
+      - image: cimg/base:2026.03
         auth:
           username: $DOCKER_LOGIN
           password: $DOCKER_ACCESSTOKEN
