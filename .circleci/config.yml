@@ -9,7 +9,7 @@ executors:
         password: $DOCKER_ACCESSTOKEN
   docker-publisher:
     environment:
-      IMAGE_NAME: openftth/notification-server
+      IMAGE_NAME: daxgrid/notification-server
     docker:
       - image: cimg/base:current
         auth:
